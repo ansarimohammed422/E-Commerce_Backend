@@ -154,7 +154,7 @@ MEDIA_ROOT = BASE_DIR / "mediafiles"  # Or any other directory name you prefer
 CORS_ALLOW_ALL_ORIGINS = True
 
 FRONTEND_URL = os.environ.get(
-    "FRONTEND_URL", "https://e-commerce-zeta-one-19.vercel.app/"
+    "FRONTEND_URL", "https://e-commerce-zeta-one-19.vercel.app"
 )
 
 CORS_ALLOWED_ORIGINS = [
